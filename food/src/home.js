@@ -1,4 +1,5 @@
 import React from 'react';
+import './home.css';
 import NavBar from './components/NavBar';
 import Photo from './components/PictureComponent';
 import Ingredients from './components/IngredientsComponent';
@@ -6,12 +7,11 @@ import Ratings from './components/StarComponent';
 import YourPantry from './components/PantryComponent';
 import Directions from './components/DirectionsComponent';
 import Variations from './components/VariationsComponent';
-import Photo from './components/PictureComponent';
-import Footer from './components/Footer';
+import Footer from './components/FooterComponent';
 
 
 function Home() {
-    return(
+    return (
         <div className="main-container">
             <div className="nav-bar">
                 <NavBar />

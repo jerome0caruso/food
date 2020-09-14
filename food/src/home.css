@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: grid;
+    width: 100%;
+    max-width: 1500px;
+    grid-template-columns: .6fr 1fr 1fr .6fr;
+    grid-template-rows: repeat(auto);
+            grid-template-areas:
+                "nav nav nav nav"
+                "yourPan photo instructions vars"
+                "yourPan ingred instructions vars"
+                "yourPan ingred instructions vars"
+                "yourPan ingred instructions vars"
+                "yourPan ingred instructions vars"
+                "footer footer footer footer";
+                
+            grid-gap: 0.2rem;
+}
+.nav-bar {
+    grid-area: nav;
+    background-color: burlywood;
+}
+
+.main-photo {
+    grid-area: photo;
+    background-color: aqua;
+}
+
+.ingredients {
+    grid-area: ingred;
+    background-color: rgb(125, 145, 145);
+}
+
+.your-pantry {
+    grid-area: yourPan;
+    background-color: rgb(252, 33, 223);
+}
+
+.directions {
+    grid-area: instructions;
+    background-color: rgb(93, 75, 255);
+}
+
+.variations {
+    grid-area: vars;
+    background-color: rgb(225, 255, 92);
+}
+
+.footer {
+    grid-area: footer;
+    background-color: rgb(209, 135, 50);
+}
