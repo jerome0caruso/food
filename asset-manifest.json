@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/food/static/css/main.a3619f54.chunk.css",
+    "main.js": "/food/static/js/main.f90b8234.chunk.js",
+    "main.js.map": "/food/static/js/main.f90b8234.chunk.js.map",
+    "runtime-main.js": "/food/static/js/runtime-main.1f1ea413.js",
+    "runtime-main.js.map": "/food/static/js/runtime-main.1f1ea413.js.map",
+    "static/js/2.7d4e5656.chunk.js": "/food/static/js/2.7d4e5656.chunk.js",
+    "static/js/2.7d4e5656.chunk.js.map": "/food/static/js/2.7d4e5656.chunk.js.map",
+    "index.html": "/food/index.html",
+    "precache-manifest.b1f4efbf1b31fe25e165b8528e765b05.js": "/food/precache-manifest.b1f4efbf1b31fe25e165b8528e765b05.js",
+    "service-worker.js": "/food/service-worker.js",
+    "static/css/main.a3619f54.chunk.css.map": "/food/static/css/main.a3619f54.chunk.css.map",
+    "static/js/2.7d4e5656.chunk.js.LICENSE.txt": "/food/static/js/2.7d4e5656.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/food/static/media/logo.ee7cd8ed.svg",
+    "static/media/testpicfood.jpg": "/food/static/media/testpicfood.037a92e0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f1ea413.js",
+    "static/js/2.7d4e5656.chunk.js",
+    "static/css/main.a3619f54.chunk.css",
+    "static/js/main.f90b8234.chunk.js"
+  ]
+}
