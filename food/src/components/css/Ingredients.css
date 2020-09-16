@@ -2,4 +2,17 @@
     line-height: 2em;
     padding: .8em;
 }
+.outter-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
 
+@media screen and (max-width: 1000px) {
+    .recipe-text {
+        line-height: .7em;
+        padding: .3em;
+        font-size: 12px;
+    }   
+
+}

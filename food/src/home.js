@@ -31,6 +31,8 @@ function Home() {
             </div>
             <div className="variations">
                 <Variations />
+                <Variations />
+                <Variations />
             </div>
             <div className="footer">
                 <Footer />

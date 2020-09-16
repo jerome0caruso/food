@@ -1,57 +1,65 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+ ::before,
+ ::after {
+  box-sizing: inherit;
+}
+
 
 .main-container {
     display: grid;
     width: 100%;
-    max-width: 1500px;
-    grid-template-columns: .6fr 1fr 1fr .6fr;
+    margin:0;
+    padding: 0;
+    max-width: 1700px;
+    min-width: 900px;
+    grid-template-columns: .5fr 1.5fr 1fr .5fr;
     grid-template-rows: repeat(auto);
-            grid-template-areas:
-                "nav nav nav nav"
-                "yourPan photo instructions vars"
-                "yourPan ingred instructions vars"
-                "yourPan ingred instructions vars"
-                "yourPan ingred instructions vars"
-                "yourPan ingred instructions vars"
-                "footer footer footer footer";
-                
-            grid-gap: 0.2rem;
+    grid-template-areas:
+        "nav nav nav nav"
+        "yourPan photo instructions vars"
+        "yourPan ingred instructions vars"
+        "yourPan ingred instructions vars"
+        "yourPan ingred instructions vars"
+        "yourPan ingred instructions vars"
+        "footer footer footer footer";
+    grid-gap: 0.2rem;
 }
 .nav-bar {
     grid-area: nav;
-    background-color: burlywood;
+    background-color: rgb(101, 165, 165);
 }
 
 .main-photo {
     grid-area: photo;
-    background-color: aqua;
+    background-color: rgb(198, 255, 255);
 }
 
 .ingredients {
     grid-area: ingred;
-    background-color: rgb(125, 145, 145);
+    background-color: rgb(198, 255, 255);
 }
 
 .your-pantry {
     grid-area: yourPan;
-    background-color: rgb(252, 33, 223);
+    background-color: rgb(198, 255, 255);
 }
 
 .directions {
     grid-area: instructions;
-    background-color: rgb(93, 75, 255);
+    background-color: rgb(198, 255, 255);
 }
 
 .variations {
     grid-area: vars;
-    background-color: rgb(225, 255, 92);
+    background-color:rgb(198, 255, 255);
 }
 
 .footer {
     grid-area: footer;
-    background-color: rgb(209, 135, 50);
+    background-color: rgb(245, 245, 245);
 }

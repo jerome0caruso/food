@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: .5em;
+}
+.footer h4 {
+    margin-left: auto;
+}
+p{
+    margin: 0 2em;
+}
